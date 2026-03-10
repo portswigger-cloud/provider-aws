@@ -9,7 +9,7 @@ on:
 
 jobs:
   publish-docs:
-    uses: upbound/official-providers-ci/.github/workflows/provider-updoc.yml@standard-runners
+    uses: upbound/official-providers-ci/.github/workflows/provider-updoc.yml@cd6215984633723be29e7709f39e3a83aaeb0baf # standard-runners
     with:
       providers: "config"
       go-version: 1.22

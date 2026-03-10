@@ -34,7 +34,7 @@ on:
 
 jobs:
   publish-service-artifacts:
-    uses: upbound/official-providers-ci/.github/workflows/provider-publish-service-artifacts.yml@standard-runners
+    uses: upbound/official-providers-ci/.github/workflows/provider-publish-service-artifacts.yml@cd6215984633723be29e7709f39e3a83aaeb0baf # standard-runners
     with:
       subpackages: ${{ github.event.inputs.subpackages }}
       size: ${{ github.event.inputs.size }}
